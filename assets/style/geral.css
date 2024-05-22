@@ -24,10 +24,6 @@ body{
 
 /*Logo*/
 
-#logo-nav{
-
-}
-
 #area-logo{
     display: flex;
     justify-content: space-between;

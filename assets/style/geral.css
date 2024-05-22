@@ -1,0 +1,157 @@
+*{
+    font-family: Roboto;
+}
+
+/*HEADER*/
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 55px;
+    background-color: white;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+/*Classes*/
+.imagens-header{
+    width: 25px;
+}
+
+/*Logo*/
+
+#logo-nav{
+
+}
+
+#area-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+}
+
+.imagem-menu{
+    width: 40px;
+}
+
+/*Barra de Pesquisa*/
+
+#area-barraDePesquisa{
+    display: flex;
+    align-items: center;
+}
+
+#barraDePesquisa{
+    border: 1px solid #CCCCCC;
+    width: 350px;
+    height: 40px;
+}
+
+#area-barraDePesquisa button{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    height: 42px;
+    width: 42px;
+    background-color: #F8F8F8;
+
+}
+
+#lupa{
+    width: 20px;
+    background-color: #F8F8F8;
+
+}
+
+/*Perfil*/
+
+#area-perfil{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*MAIN*/
+
+main{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 35px;
+
+}
+
+#area-video{
+    flex-direction: row;
+}
+
+
+#titulo-desc h1{
+    font-family: Roboto-Bold;
+    font-size: 20px;
+}
+
+#curtidas{
+    display: flex;
+    justify-content: space-between;
+}
+
+#recomendacoes{
+    margin-left: 30px;
+}
+
+
+.elemento-area-vid{
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+}
+.elemento{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-desc{
+    width: 35px;
+    margin-right: 5px;
+}
+
+#btn-inscreva-se{
+    background-color: red;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 2px;
+}
+
+.palavra-acompanhada{
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+#inscritos{
+    margin-left: 7px;
+}
+
+#visualizacoes{
+    font-family: Roboto-Bold;
+}
+
+.vid-recomendado{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.img-vid-recomendado{
+    margin-right: 6px;
+}
+
+.titulo-rec-vid{
+    font-family: Roboto-Bold;
+    margin-bottom: 8px;
+    display: inline-block;
+}
